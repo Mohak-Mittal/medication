@@ -1,0 +1,79 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Quiz Container Styles */
+.quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Quiz Title Styles */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+/* Question Styles */
+.question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Options Styles */
+.options {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.option {
+    margin-bottom: 5px;
+}
+
+/* Submit Button Styles */
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Result Styles */
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Correct Answer Styles */
+.correct {
+    color: #28a745; /* Green color for correct answers */
+}
+
+/* Incorrect Answer Styles */
+.incorrect {
+    color: #dc3545; /* Red color for incorrect answers */
+}

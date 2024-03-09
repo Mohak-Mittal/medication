@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/017/398/144/small/healthcare-services-annual-health-checkup-heart-rate-pulse-measurement-pills-antibiotics-dna-diseases-genes-illustration-on-light-blue-hexagonal-background-health-and-medicine-concept-vector.jpg');
+    background-size:contain;
+}
+.navigation {
+    padding:5px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+#bars {
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+
+}
+#text {
+    height: 40px;
+    width: 500px;
+}
+#search {
+font-size: 15px;
+color: white;
+margin: 10px;
+}
+.search {
+    border: 2px double white;
+    border-radius: 5px;
+}
+.home {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.home:hover {
+    text-decoration: underline;
+    font-size: 25px;
+}
+.nav {
+    width: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.login {
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+.login:hover {
+    text-decoration: underline;
+    font-size: 25px;
+}
+.gallery {
+    color: yellow;
+    font-size: 45px;
+}
+#book {
+    color: yellow;
+    font-size: 45px;
+    margin: 15px;
+}
+.abc {
+     display: flex;
+     align-items: center;
+}
+
+.welcome-banner {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.welcome-message {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    animation: scaleIn 1s ease-in-out;
+}
+
+/* Style for responsive design */
+@media (max-width: 600px) {
+    .welcome-message {
+        font-size: 20px;
+    }
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* Adjust width as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 255, 255,0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+}
+.track {
+    text-decoration: none;
+    font-size: 20px;
+    color: aqua;
+}
+.track:hover {
+    text-decoration: underline;
+    font-size: 25px;
+}

@@ -1,0 +1,95 @@
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9gax-KXuA0L5oeIF5_zR1OCMIiclrg_a2JHq0db3rpg&s);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.login {
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0);
+    width: 500px;
+    height: 700px;
+    border: 2px solid black;
+    backdrop-filter: blur(2px);
+}
+
+.topspace {
+    margin-top: 80px;
+}
+
+.username {
+    width: 350px;
+    height: 40px;
+    border-radius: 5%;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+
+}
+
+.password {
+    width: 350px;
+    height: 40px;
+    border-radius: 5%;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+
+.btn {
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.rem {
+    padding-top: 30px;
+    padding-right: 150px;
+    font-size: 18px;
+    color: black;
+}
+
+.reg {
+    padding-right: 130px;
+    font-size: 18px;
+    color: black;
+}
+
+.reg1 {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.for {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+input {
+    border: 2px solid black;
+}
+.reg1:hover {
+    text-decoration: underline;
+}

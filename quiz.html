@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health and Fitness Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+
+</head>
+<body>
+
+<div class="quiz-container">
+    <h2>Health and Fitness Quiz</h2>
+    <form id="quiz-form">
+        <div class="question">1. How many hours do you typically sleep each night?</div>
+        <ul class="options">
+            <li class="option"><input type="radio" name="question1" value="B"> Less than 6 hours</li>
+            <li class="option"><input type="radio" name="question1" value="C"> 6-7 hours</li>
+            <li class="option"><input type="radio" name="question1" value="C"> 7-8 hours</li>
+            <li class="option"><input type="radio" name="question1" value="D"> More than 8 hours</li>
+        </ul>
+        
+        <div class="question">2. How often do you engage in moderate-intensity exercise (such as brisk walking, cycling, or swimming) per week?</div>
+        <ul class="options">
+            <li class="option"><input type="radio" name="question2" value="A"> Never</li>
+            <li class="option"><input type="radio" name="question2" value="B"> 1-2 times</li>
+            <li class="option"><input type="radio" name="question2" value="C"> 3-4 times</li>
+            <li class="option"><input type="radio" name="question2" value="D"> 5 or more times</li>
+        </ul>
+        
+        <div class="question">3. On average, how many servings of fruits and vegetables do you consume per day?</div>
+        <ul class="options">
+            <li class="option"><input type="radio" name="question3" value="A"> Less than 2 servings</li>
+            <li class="option"><input type="radio" name="question3" value="B"> 2-3 servings</li>
+            <li class="option"><input type="radio" name="question3" value="C"> 4-5 servings</li>
+            <li class="option"><input type="radio" name="question3" value="D"> More than 5 servings</li>
+        </ul>
+        
+        <div class="question">4. How frequently do you engage in strength training exercises per week?</div>
+        <ul class="options">
+            <li class="option"><input type="radio" name="question4" value="A"> Never</li>
+            <li class="option"><input type="radio" name="question4" value="B"> 1-2 times</li>
+            <li class="option"><input type="radio" name="question4" value="C"> 3 times</li>
+            <li class="option"><input type="radio" name="question4" value="D"> 4 or more times</li>
+        </ul>
+
+        <div class="question">5. How many glasses of water do you drink per day?</div>
+        <ul class="options">
+            <li class="option"><input type="radio" name="question5" value="A"> Less than 4 glasses</li>
+            <li class="option"><input type="radio" name="question5" value="B"> 4-6 glasses</li>
+            <li class="option"><input type="radio" name="question5" value="C"> 7-8 glasses</li>
+            <li class="option"><input type="radio" name="question5" value="D"> More than 8 glasses</li>
+        </ul>
+        
+        <div class="question">6. How often do you eat fast food per week?</div>
+        <ul class="options">
+            <li class="option"><input type="radio" name="question6" value="A"> Daily</li>
+            <li class="option"><input type="radio" name="question6" value="B"> 2-3 times per week</li>
+            <li class="option"><input type="radio" name="question6" value="C"> Once per week</li>
+            <li class="option"><input type="radio" name="question6" value="D"> Rarely or never</li>
+        </ul>
+        
+        <div class="question">7. How do you cope with stress?</div>
+        <ul class="options">
+            <li class="option"><input type="radio" name="question7" value="A"> I practice meditation or deep breathing exercises</li>
+            <li class="option"><input type="radio" name="question7" value="B"> I exercise regularly</li>
+            <li class="option"><input type="radio" name="question7" value="C"> I talk to a friend or family member</li>
+            <li class="option"><input type="radio" name="question7" value="D"> I engage in hobbies or activities I enjoy</li>
+        </ul>
+
+        <div class="question">8. How often do you have regular check-ups with your healthcare provider?</div>
+        <ul class="options">
+            <li class="option"><input type="radio" name="question8" value="A"> Annually</li>
+            <li class="option"><input type="radio" name="question8" value="B"> Every 6 months</li>
+            <li class="option"><input type="radio" name="question8" value="C"> Only when I'm sick</li>
+            <li class="option"><input type="radio" name="question8" value="D"> I haven't had a check-up in years</li>
+        </ul>
+        
+        <div class="question">9. How often do you practice relaxation techniques, such as yoga or mindfulness?</div>
+        <ul class="options">
+            <li class="option"><input type="radio" name="question9" value="A"> Daily</li>
+            <li class="option"><input type="radio" name="question9" value="B"> A few times a week</li>
+            <li class="option"><input type="radio" name="question9" value="C"> Occasionally</li>
+            <li class="option"><input type="radio" name="question9" value="D"> Rarely or never</li>
+        </ul>
+        
+        <div class="question">10. How often do you engage in social activities or spend time with friends and family?</div>
+        <ul class="options">
+            <li class="option"><input type="radio" name="question10" value="A"> Daily</li>
+            <li class="option"><input type="radio" name="question10" value="B"> Several times a week</li>
+            <li class="option"><input type="radio" name="question10" value="C"> Once or twice a week</li>
+            <li class="option"><input type="radio" name="question10" value="D"> Rarely</li>
+        </ul>
+        
+        <button type="button" onclick="calculateScore()" class="submit-btn">Submit</button>
+    </form>
+    <div id="result"></div>
+</div>
+
+<script src="quiz.js"></script>
+
+</body>
+</html>

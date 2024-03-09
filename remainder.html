@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medication Tracker</title>
+    <link rel="stylesheet" href="tracker2.css">
+</head>
+<body>
+    <header>
+        <h1>Medication Tracker</h1>
+    </header>
+    <div class="medication">
+    <main>
+        <section id="medication-form">
+            <h2>Add Medication</h2><br>
+            <form id="add-medication-form" onsubmit="setReminder()">
+                <label for="medication-name">Medication Name:</label><br>
+                <input type="text" id="medication-name" name="medication-name" required><br><br><br>
+                <label for="dosage">Dosage:</label><br>
+                <input type="text" id="dosage" name="dosage" required><br><br><br>
+                <label for="frequency">Frequency:</label><br>
+                <input type="number" id="frequency" name="frequency" min="1" required> times a day<br><br><br>
+                <div id="timing-inputs">
+                    <!-- Dynamic timing inputs will be added here -->
+                </div>
+                <div class="button">
+                <button type="button" onclick="addTiming()">Add Timing</button>
+                <button type="submit">Add Medication</button>
+            </div>
+            </form>
+        </section>
+        <section id="reminder-section" class="hidden">
+            <h2>Reminder Message</h2>
+            <p id="reminder-message"></p>
+            <label for="taken">Have you taken the medication?</label>
+            <input type="checkbox" id="taken" name="taken">
+        </section>
+    </main>
+    <script src="tracker3.js"></script>
+</div>
+</body>
+</html>

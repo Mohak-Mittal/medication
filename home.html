@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <i class="fa-solid fa-bars" id="bars"></i>
+
+        <div class="abc">
+            <h1 class="gallery">Medication Tracker</h1>
+        </div>
+        
+        <!-- <div class="search">
+            <input type="search" id="text" placeholder="    Search here...">
+            <label for="text">
+                <i class="fa-solid fa-magnifying-glass" id="search"></i>
+            </label>
+        </div> -->
+        <i class="fa-solid fa-bell"></i>
+        <div class="nav">
+            <a href="remainder.html" class="track">Track Your Progress</a>
+            <a href="login.html" class="login">Log In</a>
+            <a href="registration.html" class="login">Register</a>
+            <a href="quiz.html" class="login">Quiz</a>
+            <a href="#About" class="home">About</a>
+            <a href="contact.html" class="home">Contact</a>
+        </div>
+    </nav>
+
+    <div class="welcome-banner">
+        <h1 class="welcome-message">Welcome, [User's Name]!</h1>
+    </div>
+    
+    <div class="dashboard-overview">
+        <!-- Card: Next upcoming medication dose -->
+        <div class="card">
+            <h2>Next Upcoming Medication Dose</h2>
+            <p>Medication Name: [Medication Name]</p>
+            <p>Dosage: [Dosage]</p>
+            <p>Time: [Time]</p>
+        </div>
+
+        <!-- Card: Recent medication history -->
+        <div class="card">
+            <h2>Recent Medication History</h2>
+            <p>[Medication 1]: [Dosage]</p>
+            <p>[Medication 2]: [Dosage]</p>
+            <!-- Add more medication history as needed -->
+        </div>
+
+        <!-- Card: Adherence rate -->
+        <div class="card">
+            <h2>Adherence Rate</h2>
+            <p id="current-week">Current Week: Loading...</p>
+            <p id="current-month">Current Month: Loading...</p>
+        </div>
+
+        <!-- Card: Important alerts or notifications -->
+        <div class="card">
+            <h2>Alerts/Notifications</h2>
+            <p>No new alerts or notifications</p>
+        </div>
+        <script src="home.js"></script>
+
+    </div>
+
+</body>
+
+</html>
